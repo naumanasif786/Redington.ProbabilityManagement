@@ -9,11 +9,11 @@ The calculated probability is also written to the text file under folder "Reding
 
 ### Dependencies
 
-* .Net 8, C#, MediatR, Fluent Assertions
+* .Net 8, C#, MediatR, Fluent Assertions, Moq
 
 ### Installing
 
-* If prompt please install the relevent packages i.e (MediatR, Fluent Assertions)
+* If prompt please install the relevent packages i.e (MediatR, Fluent Assertions, Moq)
 
 ### Executing program
 
@@ -26,6 +26,8 @@ The calculated probability is also written to the text file under folder "Reding
  public class ProbabilityCalculatorController(IMediator mediator) : ControllerBase
  {        
 ```
+### Unit Tests
+Unit tests for both Handler and Domain objects are under the Test folder. 
 
 ## Help
 
