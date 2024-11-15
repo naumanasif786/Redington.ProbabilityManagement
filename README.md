@@ -31,6 +31,10 @@ The calculated probability is also written to the text file under folder "Reding
 
 If you experience any issue running the project please let me know.
 
+## Swagger 
+![image](https://github.com/user-attachments/assets/fe3bbb1b-7e1e-4504-8f67-5aa245e715ce)
+
+
 
 ## Authors
 
