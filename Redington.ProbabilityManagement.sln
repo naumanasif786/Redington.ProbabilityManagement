@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redington.ProbabilityManagement.Server", "Redington.ProbabilityManagement.Server\Redington.ProbabilityManagement.Server.csproj", "{7DD9E04F-26CB-4E8E-B759-E5B5BCDB1A4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6073B256-4FA0-45FE-AD7E-EBC06A1CD918}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redington.ProbabilityManagement.Application", "Redington.ProbabilityManagement.Application\Redington.ProbabilityManagement.Application.csproj", "{1F9C64D2-5B90-488E-8471-0E2EE3A18483}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C96084D3-A415-4F80-8542-515D10F02ECA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redington.ProbabilityManagement.Infrastructure", "Redington.ProbabilityManagement.Infrastructure\Redington.ProbabilityManagement.Infrastructure.csproj", "{387C814A-BFB6-46F8-B36A-10B8C0E077EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redington.ProbabilityManagement.Domain", "Redington.ProbabilityManagement.Domain\Redington.ProbabilityManagement.Domain.csproj", "{DA1C7BF2-99D1-49E2-A7A2-62D292987EF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7ED0DE89-BC6B-494F-A59F-2F0B2E8EC179}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProbabilityManagement.Domain.Tests", "Redington.Domain.Tests\ProbabilityManagement.Domain.Tests.csproj", "{92BF6F38-AF6C-447B-B3D3-E128D3537CCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProbabilityManagement.Application.Tests", "Redington.ProbabilityManagement.Application.Tests\ProbabilityManagement.Application.Tests.csproj", "{438E8AF7-D56B-4A51-BF66-B09AAFB3CD2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DD9E04F-26CB-4E8E-B759-E5B5BCDB1A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD9E04F-26CB-4E8E-B759-E5B5BCDB1A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD9E04F-26CB-4E8E-B759-E5B5BCDB1A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD9E04F-26CB-4E8E-B759-E5B5BCDB1A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F9C64D2-5B90-488E-8471-0E2EE3A18483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9C64D2-5B90-488E-8471-0E2EE3A18483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9C64D2-5B90-488E-8471-0E2EE3A18483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9C64D2-5B90-488E-8471-0E2EE3A18483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387C814A-BFB6-46F8-B36A-10B8C0E077EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387C814A-BFB6-46F8-B36A-10B8C0E077EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387C814A-BFB6-46F8-B36A-10B8C0E077EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387C814A-BFB6-46F8-B36A-10B8C0E077EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA1C7BF2-99D1-49E2-A7A2-62D292987EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1C7BF2-99D1-49E2-A7A2-62D292987EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1C7BF2-99D1-49E2-A7A2-62D292987EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1C7BF2-99D1-49E2-A7A2-62D292987EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BF6F38-AF6C-447B-B3D3-E128D3537CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BF6F38-AF6C-447B-B3D3-E128D3537CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BF6F38-AF6C-447B-B3D3-E128D3537CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BF6F38-AF6C-447B-B3D3-E128D3537CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438E8AF7-D56B-4A51-BF66-B09AAFB3CD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438E8AF7-D56B-4A51-BF66-B09AAFB3CD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438E8AF7-D56B-4A51-BF66-B09AAFB3CD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438E8AF7-D56B-4A51-BF66-B09AAFB3CD2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F9C64D2-5B90-488E-8471-0E2EE3A18483} = {6073B256-4FA0-45FE-AD7E-EBC06A1CD918}
+		{387C814A-BFB6-46F8-B36A-10B8C0E077EA} = {C96084D3-A415-4F80-8542-515D10F02ECA}
+		{DA1C7BF2-99D1-49E2-A7A2-62D292987EF0} = {6073B256-4FA0-45FE-AD7E-EBC06A1CD918}
+		{92BF6F38-AF6C-447B-B3D3-E128D3537CCD} = {7ED0DE89-BC6B-494F-A59F-2F0B2E8EC179}
+		{438E8AF7-D56B-4A51-BF66-B09AAFB3CD2A} = {7ED0DE89-BC6B-494F-A59F-2F0B2E8EC179}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DFAF43F-C202-48ED-87F6-BD0078CF057E}
+	EndGlobalSection
+EndGlobal

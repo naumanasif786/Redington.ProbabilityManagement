@@ -1,0 +1,5 @@
+Log Date Time: 15/11/2024 15:25:21
+ Formula: CombinedWith
+ Probability A: 0.5
+ Probability B: 0.5
+ Result: 0.25
