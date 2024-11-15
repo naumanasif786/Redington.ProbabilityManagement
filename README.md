@@ -1,4 +1,4 @@
-# Redington.ProbabilityManagemen
+# Redington.ProbabilityManagement
 ## Description
 The probabilities Calculator Tool.
 
